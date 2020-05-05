@@ -2,6 +2,7 @@
     border-radius: 50%;
 }
 
+
 @media screen and (min-width: 768px) {
     .avatar {
         max-width: 9rem;
@@ -18,4 +19,9 @@
     .avatar {
         max-width: 15rem;
     }
+}
+
+.highlighted {
+    background: rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
 }
